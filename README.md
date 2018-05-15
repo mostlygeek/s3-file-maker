@@ -2,6 +2,10 @@
 
 This has a pretty specific use case, [BuildHub#456](https://github.com/mozilla-services/buildhub/issues/465).  This will generate random files into S3 and every so often generate a [buildhub.json](https://bugzilla.mozilla.org/show_bug.cgi?id=1442306) file. 
 
+## AWS Credentials
+
+Make sure your AWS DEV IAM credentials are in `./aws/config`.  Right now it only supports them being your `[default]` credentials... `¯\_(ツ)_/¯`.
+
 ## Install and Usage
 
 ```
